@@ -11,15 +11,15 @@
       "preview": {
         "port": 5000
       }
-    }
-  },
-  "install-dependencies": {
-    "name": "Install dependencies",
-    "command": "pip install -r requirements.txt",
-    "restartOn": {
-      "files": ["requirements.txt"],
-      "branch": false,
-      "resume": false
+    },
+    "install-dependencies": {
+      "name": "Install dependencies",
+      "command": "pip install -r requirements.txt",
+      "restartOn": {
+        "files": ["requirements.txt"],
+        "branch": false,
+        "resume": false
+      }
     }
   }
 }
