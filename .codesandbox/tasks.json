@@ -7,7 +7,19 @@
     "start": {
       "name": "start",
       "command": "python main.py",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 5000
+      }
+    }
+  },
+  "install-dependencies": {
+    "name": "Install dependencies",
+    "command": "pip install -r requirements.txt",
+    "restartOn": {
+      "files": ["requirements.txt"],
+      "branch": false,
+      "resume": false
     }
   }
 }
